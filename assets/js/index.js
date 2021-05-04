@@ -12,7 +12,7 @@ $("#update_user").submit(function(event){
         data[n['name']]=n['value'];
     })
 
-    consol.log(unindexed_array);
+    console.log(unindexed_array);
 
     var request ={
         "url": `http://localhost:3000/api/users/${data.id}`,
